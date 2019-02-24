@@ -1,0 +1,13 @@
+.app {
+  width: 1300px;
+  height: 819px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.app__main {
+  height: 685px;
+  overflow: hidden;
+  overflow-y: auto;
+}

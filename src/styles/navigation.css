@@ -1,0 +1,26 @@
+.navigation {
+  display: flex;
+}
+
+.navigation__list {
+  list-style-type: none;
+  display: flex;
+}
+
+.navigation__icon {
+  font-size: 40px;
+  border: 0;
+  background-color: transparent;
+  display: flex;
+  padding: 0;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.navigation__icon_active {
+  color: var(--green);
+}
+
+.navigation__icon:hover {
+  transform: scale(1.3);
+}

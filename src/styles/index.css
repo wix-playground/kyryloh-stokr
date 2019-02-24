@@ -1,0 +1,31 @@
+:root {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --font-family: HelveticaNeueW01-55Roma, sans-serif;
+  --font-family-bold: "Helvetica Neue Medium", sans-serif;
+  --font-size-logo: 39px;
+  --font-size-title: 33px;
+  --font-size-price: 30px;
+  --font-size-percent: 34px;
+  --font-size-form: 26px;
+  --font-size-form-btn: 30px;
+  --font-size-search-title: 30px;
+  --font-color: #59737c;
+  --red: #ff4f46;
+  --red-disabled: #FF4F46;
+  --green: #63da39;
+}
+
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: aliceblue;
+}

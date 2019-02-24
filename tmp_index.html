@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="src/styles/main.css">
+  <title>Stokr</title>
+</head>
+<body>
+<div id="root">
+  <div class="app">
+    <header class="header"><h1 class="header__logo">STOKR</h1>
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li>
+            <button class="navigation__icon icon-search"></button>
+          </li>
+          <li>
+            <button class="navigation__icon icon-refresh"></button>
+          </li>
+          <li>
+            <button class="navigation__icon icon-filter"></button>
+          </li>
+          <li>
+            <button class="navigation__icon icon-settings"></button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="app__main">
+      <form class="filter filter_hidden" action="#">
+        <div class="filter__inputs">
+          <label class="filter__label">
+            <span class="filter__span filter__span_small">By Name</span>
+            <input type="text" name="by-text" class="filter__input">
+          </label>
+          <label class="filter__label">
+            <span class="filter__span">By Range: From</span>
+            <input type="text" name="by-range-from" class="filter__input filter__input_long">
+          </label>
+          <label class="filter__label">
+            <span class="filter__span filter__span_small">By Gain</span>
+            <input type="text" name="by-gain" class="filter__input">
+          </label>
+          <label class="filter__label">
+            <span class="filter__span">By Range: To</span>
+            <input type="text" name="by-range-to" class="filter__input filter__input_long">
+          </label>
+        </div>
+        <button class="filter__btn">Apply</button>
+      </form>
+      <div class="stoks">
+        <div class="stoks_stok stok">
+          <button class="stok__del-btn"><span class="stok__white-line"></span></button>
+          <h1 class="stok__title">DIS The Walt Disney Company</h1>
+          <span class="stok__price">113.51</span>
+          <button class="stok__percent stok__percent_green">0.82%</button>
+          <div class="stok__moving">
+            <button class="stok__arrow stok__arrow_up" disabled=""></button>
+            <button class="stok__arrow stok__arrow_down"></button>
+          </div>
+        </div>
+        <div class="stoks_stok stok">
+          <button class="stok__del-btn"><span class="stok__white-line"></span></button>
+          <h1 class="stok__title">GOOG Alphabet Inc.</h1>
+          <span class="stok__price">1118.56</span>
+          <button class="stok__percent stok__percent_green">0.44%</button>
+          <div class="stok__moving">
+            <button class="stok__arrow stok__arrow_up"></button>
+            <button class="stok__arrow stok__arrow_down" disabled=""></button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</div>
+</body>
+</html>
